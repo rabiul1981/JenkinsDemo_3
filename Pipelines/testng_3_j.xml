@@ -4,8 +4,8 @@
 
   <test thread-count="5" name="Test">
   
-<parameter name="browserName" value="edge"></parameter>
-<parameter name="WebsiteUrl" value="https://www.facebook.com/"></parameter>
+<parameter name="browserName" value="${BROWSER}"></parameter>
+<parameter name="WebsiteUrl" value="${URL}"></parameter>
 
     <classes>
     
